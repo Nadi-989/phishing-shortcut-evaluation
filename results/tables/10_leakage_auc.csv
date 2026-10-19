@@ -1,0 +1,31 @@
+Dataset,Rank,Feature,Single-feature AUC
+PhiUSIIL (all features),1,URLSimilarityIndex,0.9961
+PhiUSIIL (all features),2,LineOfCode,0.9903
+PhiUSIIL (all features),3,NoOfExternalRef,0.9881
+PhiUSIIL (all features),4,NoOfImage,0.9796
+PhiUSIIL (all features),5,NoOfSelfRef,0.9722
+PhiUSIIL (all features),6,NoOfJS,0.9705
+PhiUSIIL (all features),7,NoOfCSS,0.9572
+PhiUSIIL (all features),8,HasSocialNet,0.8944
+PhiUSIIL (all features),9,HasCopyrightInfo,0.8749
+PhiUSIIL (all features),10,HasDescription,0.8459
+PhiUSIIL,1,NoOfOtherSpecialCharsInURL,0.8237
+PhiUSIIL,2,SpacialCharRatioInURL,0.8073
+PhiUSIIL,3,URLCharProb,0.7673
+PhiUSIIL,4,IsHTTPS,0.7539
+PhiUSIIL,5,CharContinuationRate,0.7435
+PhiUSIIL,6,NoOfLettersInURL,0.7427
+PhiUSIIL,7,URLLength,0.7324
+PhiUSIIL,8,NoOfDegitsInURL,0.7279
+PhiUSIIL,9,DegitRatioInURL,0.726
+PhiUSIIL,10,LetterRatioInURL,0.716
+WPD,1,google_index,0.868
+WPD,2,nb_hyperlinks,0.8196
+WPD,3,page_rank,0.8106
+WPD,4,nb_www,0.7227
+WPD,5,ratio_digits_url,0.6987
+WPD,6,web_traffic,0.6903
+WPD,7,domain_age,0.6743
+WPD,8,longest_words_raw,0.6685
+WPD,9,length_url,0.6653
+WPD,10,ratio_extRedirection,0.6627

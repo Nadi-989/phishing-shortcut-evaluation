@@ -1,0 +1,4 @@
+Dataset,Rows before,Rows after dedup,Dropped text/ID columns,Manually dropped,Feature set,Constant columns removed,Final features,Train size,Test size
+PhiUSIIL (all features),235795,235795,"URL, Domain, TLD, Title",-,all numeric features,0,50,188636,47159
+PhiUSIIL,235795,235795,"URL, Domain, TLD, Title",-,restricted list (21 features),0,21,188636,47159
+WPD,11430,11430,url,-,all numeric features,6,81,9144,2286

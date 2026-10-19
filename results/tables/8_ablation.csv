@@ -1,0 +1,9 @@
+Dataset,Setting,Model,Features,Accuracy,Precision,Recall,F1,ROC-AUC,MCC,FPR,Train time (s),Predict ms / 1k URLs,Variant,ΔF1 vs full (pp)
+PhiUSIIL,HFS,Proposed Stacking,13,99.78,99.94,99.53,99.74,99.91,99.54,0.04,311.841,48.051,Full framework (MI + RFECV + Stacking),0.0
+PhiUSIIL,All features,Proposed Stacking,21,99.78,99.95,99.53,99.74,99.91,99.55,0.04,293.802,45.255,w/o feature selection,0.004950461438191223
+PhiUSIIL,Ablation,MI only (no RFECV),13,99.78,99.94,99.53,99.74,99.91,99.54,0.04,291.943,45.032,MI only (no RFECV),0.0
+PhiUSIIL,Ablation,RFECV only (no MI),13,99.78,99.95,99.53,99.74,99.91,99.55,0.04,292.7,45.407,RFECV only (no MI),0.0024751692913604906
+PhiUSIIL,Ablation,Stacking w/o RF,13,99.77,99.93,99.53,99.73,99.91,99.53,0.05,80.641,32.783,Stacking w/o RF,-0.004949970052869901
+PhiUSIIL,Ablation,Stacking w/o XGBoost,13,99.77,99.94,99.53,99.73,99.9,99.54,0.04,252.14,34.968,Stacking w/o XGBoost,-0.0024882256707936534
+PhiUSIIL,Ablation,Stacking w/o LightGBM,13,99.77,99.93,99.52,99.73,99.91,99.52,0.05,252.1,22.702,Stacking w/o LightGBM,-0.009926543577520874
+PhiUSIIL,Ablation,Soft voting instead of meta-learner,13,99.77,99.96,99.5,99.73,99.91,99.53,0.03,59.218,43.466,Soft voting instead of meta-learner,-0.0050298002791993035

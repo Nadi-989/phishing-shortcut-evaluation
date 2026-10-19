@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Shortcut Features and Fair Evaluation in Phishing URL Detection: code and results"
+authors:
+  - family-names: Hussien
+    given-names: Nadia Mahmood
+    affiliation: "Mustansiriyah University, Baghdad, Iraq"
+license: MIT
+repository-code: "https://github.com/Nadi-989/phishing-shortcut-evaluation"
+date-released: 2026-10-19

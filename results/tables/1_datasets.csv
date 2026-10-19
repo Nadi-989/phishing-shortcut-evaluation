@@ -1,0 +1,3 @@
+Dataset,Samples,Raw columns,Phishing,Legitimate,Phishing %,Missing values,Duplicate rows
+PhiUSIIL,235795,54,100945,134850,42.81,0,0
+WPD,11430,88,5715,5715,50.0,0,0

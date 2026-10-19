@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+dataset_phishing.csv
+*.zip
+results.zip
+.DS_Store
